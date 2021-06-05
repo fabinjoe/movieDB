@@ -1,10 +1,9 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import React, {useEffect, useeffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import Movie from "./components/Movie";
 
 const FEATURED_API = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=b534d0b78b24367c9051942673e142bc&page=1";
-const IMG_API = "https://image.tmdb.org/t/p/w1280";
 const SEARCH_API = "https://api.themoviedb.org/3/search/movie?&api_key=b534d0b78b24367c9051942673e142bc&query=";
 
 function App() {
